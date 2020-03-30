@@ -31,15 +31,6 @@ namespace Solution
         }
     }
 
-    public enum Actions
-    {
-        Add,
-        Move,
-        Remove,
-        Print,
-        Count
-    }
-
     public class ConsoleProcessor
     {
         public OrgChart OrgChart { get; set; } = new OrgChart();
